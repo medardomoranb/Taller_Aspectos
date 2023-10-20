@@ -17,6 +17,7 @@ public aspect AdviceQuerety {
 
 	after():verifyAssurance(){
 		System.out.println("Request was executed successfully");
+		System.out.println("Prueba completa");
 		
 	}	 
 	
